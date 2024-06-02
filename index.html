@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>registretion demo</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>    
+<body>
+    <h1 align="center">Job Application From</h1>
+    <hr width="70%">
+    <from>
+       
+   <table align="center">
+    <tr>
+        <th>
+            <label style="text-align: left;" for="mytext">Full Name</label>
+        </th>
+        <th> <input style="margin-left: 50%;" type="text" name="first name" placeholder="Enter the name" id="mytext" size="30%" /></th>
+    </tr>
+    <tr>
+        <th>
+            <label for="mytext">Job Title</label>
+        </th>
+        <th>
+            <br>
+            <input style="margin-left: 30%;"  type="text " name="Job Title" placeholder="Enter your job Title" size="3%" /><br>
+            <br>
+            </th>
+            <th>  
+            <input style="margin-right: 0%;"  type="text " name="Job Title" placeholder="Enter your job Title" size="30%"/><br>
+        </th>
+    </tr>
+   </table>
+            
+           
+       
+        Current Company <input style="margin-left: 33%;" type="text" name="Current Comany" placeholder="Emter your company name"/>
+        <br>
+        <br>
+
+        <label for="mytel" >Contact Number</label>
+        
+        <input type="text" style="margin-left: 30%;" list="num" id="mytel" size="2%">
+        <datalist id="num">
+            <option>+91</option>
+            <option>+100</option> 
+               </datalist>
+        <input style="margin-left:1%;" type="tel" id="mytel" placeholder=" Contact number" required />
+        <br><br>
+        <label for="myemail">Email id:</label>
+        <input style="margin-left: 39%;" type="email" id="myemail" placeholder="Enter  your email id" required/><br>
+        <br>
+        <label>Work Status:
+        <input style="margin-left: 30%;" type="radio" name="status" value="full time">Full Time
+        <input  type="radio" name="status" value="part time">Part Time
+        <input type="radio" name="status" value="per Day">Per Time
+        <input  type="radio" name="status" value="other">Others
+        </label>
+        <br>
+        <br>
+        <label for="mysalary">Salary</label>
+        <input style="margin-left: 30%;" type="number" min="1" max="20000" step="any" id="mysalary"/>
+        <input list="salary" id="mysalary" size="10%">
+        <datalist  id="salary">
+            <option > Rupees</option>
+            <option value="doller"></option>
+            <option value="kubait"></option>
+            <option value="pound"></option>
+            <option value="taka"></option>
+            <option value="urro"></option>
+        </datalist>
+        <input list="year" id="mysalary" size="10%">
+        <datalist id="year">
+            <option value="yearlly"></option>
+                <option value="month">
+                </option>
+                <option>half yearlly</option>
+                <option value="weeklly"></option>
+                <option value="day"></option>
+                <option value="rokda"></option>
+
+            
+        </datalist>
+        <br>
+        <br>
+        <label for="myexperience">Experience </label>
+        <input  style="margin-left: 39%;" type="number" id="myexperience" placeholder="enter your experience" value="year">
+        <br>
+        <br>
+        <label for="mylocation" >Current Location</label>
+        <input style="margin-left: 35%;" type="text" name="location" placeholder="Enter your locaion" id="mylocation"/>
+        <br>
+        <br>
+        <label for="my address" >Permanent Address</label>
+        <input style="margin-left: 33%;" type="text" name="address" placeholder="Enter your permanent address"  multiple>
+        
+        <br>
+        <br>
+        <label for="myresume">Upload Resume</label>
+        <input style="margin-left: 33%;" type="file" name="resume" id="myresume">
+        <br>
+        <br>
+
+        <input style="margin-left: 30%;" type="submit"/>
+        <input  type="reset"/>
+
+    </from>
+</body>
+</html>
